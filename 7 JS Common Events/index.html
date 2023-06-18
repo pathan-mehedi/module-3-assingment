@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click, Key, and Mouse Events</title>
+  <script src="script.js"></script>
+</head>
+<body onclick="handleClick(event)" onkeypress="handleKeyPress(event)">
+  <h1>Click anywhere, press any key, and mouse over the image</h1>
+  <img style="height: 300px; width: 550px;" id="myImage" src="./public/image_1.jpg"  onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">
+</body>
+</html>
